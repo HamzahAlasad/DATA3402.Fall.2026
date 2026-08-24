@@ -18,7 +18,8 @@ and labs are pushed as the semester progresses.
 ## Getting started
 
 1. Read `Labs/Git Hub Setup Guide (wsl & Mac Os).pdf` and get git working on your machine.
-2. Clone this repository.
+2. Until Lab 3, browse materials here on GitHub and download the files you need
+   (the fork/clone setup comes later — see *Labs and submission* below).
 3. Set up a Python environment and install the requirements:
 
    ```bash
@@ -44,9 +45,17 @@ themselves and are excluded via `.gitignore` — don't commit them.
 
 ## Labs and submission
 
-Lab assignments are distributed and collected through GitHub Classroom. Accept the
-assignment link posted on Teams, work in the repository it creates for you, and push
-your work before the deadline. `Labs/DATA3402_Lab3_Merge_Conflict_Guide.pdf` covers
+Lab work is submitted through your own **fork** of this repository:
+
+- you fork this repository once on GitHub, giving you your own copy under your account;
+- you **pull from this repository** to receive new lectures and labs as they are released;
+- you do your lab work in your fork and **push to your fork**, which is where it is graded.
+
+**Do not fork or clone anything yet.** We set this up together, step by step, in the
+lab session that covers git and GitHub (Lab 3) — doing it early or differently will
+leave you with a setup that fights the course workflow all semester. Until then, you
+only need the environment from *Getting started* below; lecture materials can be
+browsed right here on GitHub. `Labs/DATA3402_Lab3_Merge_Conflict_Guide.pdf` covers
 what to do when git fights you.
 
 ## Communication
